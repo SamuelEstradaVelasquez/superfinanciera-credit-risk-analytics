@@ -132,6 +132,7 @@ psql -d mi_base_datos -f scripts/03_consultas_negocio_y_vista_materializada.sql
 ```sql
 SELECT * FROM IndiceDeRiesgo LIMIT 10;
 
+```
 
 ## 🌐 Fuente de Datos y Descarga (Data Source)
 
@@ -147,15 +148,12 @@ Los datos crudos utilizados en este proyecto provienen del portal oficial de Dat
 
 Para replicar el pipeline de datos localmente desde la base original:
 
-1. Ingresa al enlace oficial de [Datos.gov.co](https://www.datos.gov.co/Econom-a-y-Finanzas/Tarjetas-de-cr-dito-y-d-bito/h2jg-r3zg/about_data).
+1. Ingresa al portal oficial mediante el siguiente enlace: [Abrir Dataset en Datos.gov.co](https://www.datos.gov.co/Econom-a-y-Finanzas/Tarjetas-de-cr-dito-y-d-bito/h2jg-r3zg/about_data).
 2. En la parte superior derecha de la interfaz del portal, ubica y haz clic en el botón **Exportar**.
 3. En el menú desplegable, selecciona la opción **CSV** para descargar la base de datos completa.
-4. Guarda el archivo descargado en la carpeta `/data` de este proyecto para iniciar la ejecución de los scripts de ingesta en PostgreSQL.
+4. Guarda el archivo descargado en la carpeta local de tu proyecto para iniciar la ejecución de los scripts de ingesta en PostgreSQL.
 
-![Exportar datos CSV desde Datos.gov.co]C:\Users\se339\OneDrive\Desktop\Proyectos\Análisis tarjedas de crédito y débito)
+![Exportar datos CSV desde Datos.gov.co]
 
 ```
-
-
-
 ---
