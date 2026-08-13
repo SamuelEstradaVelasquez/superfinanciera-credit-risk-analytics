@@ -148,7 +148,7 @@ Los datos crudos utilizados en este proyecto provienen del portal oficial de Dat
 
 Para replicar el pipeline de datos localmente desde la base original:
 
-1. Ingresa al portal oficial mediante el siguiente enlace: [Abrir Dataset en Datos.gov.co](https://www.datos.gov.co/Econom-a-y-Finanzas/Tarjetas-de-cr-dito-y-d-bito/h2jg-r3zg/data_preview).
+1. Ingresa al portal oficial mediante el siguiente enlace: [Abrir Dataset en Datos.gov.co](https://www.datos.gov.co/d/h2jg-r3zg).
 2. En la parte superior derecha de la interfaz del portal, ubica y haz clic en el botón **Exportar**.
 3. En el menú desplegable, selecciona la opción **CSV** para descargar la base de datos completa.
 4. Guarda el archivo descargado en la carpeta local de tu proyecto para iniciar la ejecución de los scripts de ingesta en PostgreSQL.
