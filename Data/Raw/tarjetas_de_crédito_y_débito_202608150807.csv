@@ -1,0 +1,11 @@
+"TIPOENTIDAD","CODIGOENTIDAD","NOMBREENTIDAD","FECHACORTE","COD_UCA","NOMBRE_UCA","SUBCUENTA","DESCRIPCION","PERSONA_NATURAL","PERSONA_JURIDICA","TOTAL_TARJETAS"
+1,1,BANCO DE BOGOTA S. A.,2028-07-03,1,CREDIBANCO-VISA,35,Número de transacciones por compras en el exterior con tarjeta de crédito,404.767,56.509,461.276
+1,1,BANCO DE BOGOTA S. A.,2028-07-03,1,CREDIBANCO-VISA,45,Monto de las transacciones por compras con tarjeta de crédito a nivel nacional,498053840896,116387880960,614441746432
+1,1,BANCO DE BOGOTA S. A.,2028-07-03,1,CREDIBANCO-VISA,25,Número de transacciones por compras a nivel nacional con tarjeta de crédito,3350185.0,239.177,3589362.0
+1,1,BANCO DE BOGOTA S. A.,2028-07-03,1,CREDIBANCO-VISA,30,Número de  transacciones por avances a nivel nacional con tarjeta de crédito,123.033,3.379,126.412
+1,1,BANCO DE BOGOTA S. A.,2028-07-03,1,CREDIBANCO-VISA,20,Número total de tarjetas de créditos bloqueadas  temporalmente,184.13,5.045,189.175
+1,1,BANCO DE BOGOTA S. A.,2028-07-03,1,CREDIBANCO-VISA,40,Número de  transacciones por avances en el exterior con tarjeta de crédito,251.0,40.0,291.0
+1,1,BANCO DE BOGOTA S. A.,2028-07-03,1,CREDIBANCO-VISA,10,Número total de tarjetas de crédito vigentes durante el mes,18.432,581.0,19.013
+1,1,BANCO DE BOGOTA S. A.,2028-07-03,1,CREDIBANCO-VISA,15,Número total de tarjetas de crédito canceladas,13.795,480.0,14.275
+1,1,BANCO DE BOGOTA S. A.,2028-07-03,1,CREDIBANCO-VISA,5,Número total de tarjetas de crédito vigentes  a la fecha de corte,861.57,37.67,899.24
+1,1,BANCO DE BOGOTA S. A.,2028-07-03,1,CREDIBANCO-VISA,50,Monto de las transacciones por avances con tarjeta de crédito a nivel nacional,86937346048,5053424128,91990769664
