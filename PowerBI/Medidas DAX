@@ -1,0 +1,23 @@
+Ejemplos de medidas dax utilizadas
+
+Total de cartera tarjetas de credito = 
+    CALCULATE(SUM('datos_tarjetas fact_tarjetas_credito_debito'[valor]),'datos_tarjetas dim_descripcion'[id_descripcion] = 60)
+
+Deterioro total = 
+    CALCULATE(SUM('datos_tarjetas fact_tarjetas_credito_debito'[valor]),'datos_tarjetas dim_descripcion'[id_descripcion] = 19 || 
+    'datos_tarjetas dim_descripcion'[id_descripcion] = 20 ||'datos_tarjetas dim_descripcion'[id_descripcion] = 22)
+
+Índice de riesgo global = 
+    [Deterioro total] / [Total de cartera tarjetas de credito]
+
+Ranking por riesgo de entidad = 
+IF(
+    NOT ISBLANK([Índice de riesgo global]), 
+    RANKX(
+        ALLSELECTED('datos_tarjetas dim_nombre_entidad'[nombre_entidad]),
+        'Medidas'[Índice de riesgo global],
+        ,
+        DESC,
+        Dense
+    )
+)
