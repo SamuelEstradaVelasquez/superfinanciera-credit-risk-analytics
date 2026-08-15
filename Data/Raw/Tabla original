@@ -1,1 +1,6 @@
+📥 Inspección de la Tabla Cruda (Dataset de Origen)
+Puedes ejecutar la siguiente tabla para verificar la estructura inicial del dataset importado desde la Superintendencia Financiera.
 
+Nota: Debido a que la fuente oficial de Datos Abiertos se actualiza periódicamente, 
+los registros o el número de filas pueden diferir al momento de tu descarga; sin embargo, 
+el esquema mantendrá exactamente los mismos atributos, tipos de datos y sentido semántico
