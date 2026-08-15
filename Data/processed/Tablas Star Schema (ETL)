@@ -1,1 +1,2 @@
-
+🔍 Muestras de Verificación (Output Esperado)
+A continuación, se presentan los resultados esperados tras ejecutar el pipeline. Puedes utilizar estas consultas de control (LIMIT 10) para validar que la estructura de la dimensión dim_fecha y la tabla de hechos fact_tarjetas_credito_debito hayan quedado correctamente normalizadas:
